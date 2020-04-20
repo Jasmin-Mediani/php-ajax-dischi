@@ -5,8 +5,8 @@ main {
 
     .container {
         //alternativa: width a 55% con header
-        width: 750px;
-        min-height: calc(100vh - 52px);
+        width: 760px;
+        height: calc(100vh - 52px);
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
@@ -17,6 +17,7 @@ main {
         .card {
             width: 200px;
             min-height: 280px;
+            max-height: 300px;
             margin-top: 20px;
             background-color: $nero_primario;
             display: flex;
@@ -60,6 +61,11 @@ main {
     main .container {
         width: auto;
         justify-content: space-evenly;
+
+        .card {
+            max-height: 300px;
+
+        }
 
     }
 }
