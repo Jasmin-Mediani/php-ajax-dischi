@@ -4,7 +4,7 @@
             'immagine' => 'https://www.bonjovimusic.it/upload/album/4/new-jersey-medium.jpg',
             "titolo" => "New Jersey",
             "autore" => "Bon Jovi",
-            "anno" => "1992"
+            "anno" => "1988"
         ],
         [
             'immagine' => 'https://images-na.ssl-images-amazon.com/images/I/71g40mlbinL._AC_SX522_.jpg',

@@ -19,59 +19,24 @@
     </header>
     <main>
       <div class="container">
-        <!-- --------- provvisori --------
-        <div class="card">
-          <img
-            src="https://www.bonjovimusic.it/upload/album/4/new-jersey-medium.jpg"
-            alt="album_copertina"
-          />
-          <h3>Titolo</h3>
-          <span class="nome-autore">autore</span>
-          <span class="anno">anno</span>
-        </div>
-        <div class="card">
-          <img
-            src="https://images-na.ssl-images-amazon.com/images/I/71g40mlbinL._AC_SX522_.jpg"
-            alt="album_copertina"
-          />
-          <h3>Titolo</h3>
-          <span class="nome-autore">autore</span> <span class="anno">anno</span>
-        </div>
-        <div class="card">
-          <img
-            src="https://m.media-amazon.com/images/I/81r5dWQRBJL._SS500_.jpg"
-            alt="album_copertina"
-          />
-          <h3>Titolo</h3>
-          <span class="nome-autore">autore</span> <span class="anno">anno</span>
-        </div>
-        <div class="card">
-          <img
-            src="https://m.media-amazon.com/images/I/81UtLzBDoEL._SS500_.jpg"
-            alt="album_copertina"
-          />
-          <h3>Titolo</h3>
-          <span class="nome-autore">autore</span> <span class="anno">anno</span>
-        </div>
-        <div class="card">
-          <img
-            src="https://images-na.ssl-images-amazon.com/images/I/81ll31VxLDL._AC_SX466_.jpg"
-            alt="album_copertina"
-          />
-          <h3>Titolo</h3>
-          <span class="nome-autore">autore</span> <span class="anno">anno</span>
-        </div>
-        <div class="card">
-          <img
-            src="https://images-na.ssl-images-amazon.com/images/I/81lR-Qe4X2L._AC_SX466_.jpg"
-            alt="album_copertina"
-          />
-          <h3>Titolo</h3>
-          <span class="nome-autore">autore</span>
-          <span class="anno">anno</span>
-        </div> -->
+        <?php
+          include 'dati.php';
+          ?>
 
-        <!-------------------------------->
+        <?php 
+        foreach ($cards as $key =>
+        $card) { ?>
+        <div class="card">
+          <img src=
+          <?php echo $card["immagine"] ?>
+          alt="album_copertina" />
+
+          <h3><?php echo $card["titolo"] ?></h3>
+          <span class="nome-autore"> <?php echo $card["autore"] ?> </span>
+          <span class="anno"> <?php echo $card["anno"] ?></span>
+        </div>
+
+        <?php } ?>
       </div>
     </main>
 
