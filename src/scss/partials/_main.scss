@@ -1,0 +1,46 @@
+main {
+    height: calc(100vh - 50px);
+    background-color: $grigio_primario;
+
+    .container {
+        //alternativa: width a 55% con header
+        width: 750px;
+        height: calc(100vh - 52px);
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        .card {
+            width: 200px;
+            height: 270px;
+            margin-top: 20px;
+            background-color: $nero_primario;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h3 {
+                color: $bianco_titolo;
+            }
+
+            .nome-autore {
+                color: $grigio_autore;
+            }
+
+            .anno {
+                color: $grigio_anno;
+            }
+
+
+            img {
+                width: 155px;
+                height: 155px;
+                margin-top: 22.5px;
+
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+header {
+    height: 50px;
+    background-color: $nero_primario;
+    display: flex;
+    align-items: center;
+
+    .container {
+        max-width: 1200px;
+        //alternativa: width a 55% con main
+        width: 750px;
+        margin: 0 auto;
+    }
+
+    #logo img {
+        height: 40px;
+
+    }
+
+}
