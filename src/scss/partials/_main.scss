@@ -1,11 +1,12 @@
 main {
-    height: calc(100vh - 50px);
+    min-height: calc(100vh - 50px);
     background-color: $grigio_primario;
+    font-family: $font-principale;
 
     .container {
         //alternativa: width a 55% con header
         width: 750px;
-        height: calc(100vh - 52px);
+        min-height: calc(100vh - 52px);
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
@@ -15,7 +16,7 @@ main {
 
         .card {
             width: 200px;
-            height: 270px;
+            min-height: 280px;
             margin-top: 20px;
             background-color: $nero_primario;
             display: flex;
@@ -24,14 +25,23 @@ main {
 
             h3 {
                 color: $bianco_titolo;
+                font-size: 15px;
+                padding-left: 11px;
+                padding-right: 11px;
+                margin-top: 15px;
+                text-align: center;
             }
 
             .nome-autore {
                 color: $grigio_autore;
+                margin-top: 5px;
+                font-size: 14px;
             }
 
             .anno {
                 color: $grigio_anno;
+                margin-top: 5px;
+                font-size: 13px;
             }
 
 
