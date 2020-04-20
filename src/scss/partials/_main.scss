@@ -54,3 +54,12 @@ main {
         }
     }
 }
+
+@media only screen and (max-width: 800px) {
+
+    main .container {
+        width: auto;
+        justify-content: space-evenly;
+
+    }
+}
