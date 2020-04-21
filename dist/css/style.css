@@ -1,3 +1,5 @@
+/* ellipsis per far stare i titoli su una sola riga*/
+
 /* RESET */
 
 * {
@@ -67,27 +69,43 @@ main .container .card {
 
 main .container .card h3 {
   color: #F6F6F6;
-  font-size: 15px;
+  font-size: 13.5px;
   padding-left: 11px;
   padding-right: 11px;
   margin-top: 15px;
   text-align: center;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: lighter;
+  max-width: 180px;
 }
 
 main .container .card .nome-autore {
   color: #808080;
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 13px;
+  text-align: center;
   padding-left: 11px;
   padding-right: 11px;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 main .container .card .anno {
   color: #E1E1E1;
   margin-top: 5px;
-  font-size: 13px;
+  font-size: 12.5px;
+  text-align: center;
   padding-left: 11px;
   padding-right: 11px;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 main .container .card img {

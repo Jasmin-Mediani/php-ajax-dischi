@@ -14,7 +14,7 @@
         ],
         [
             'immagine' => 'https://m.media-amazon.com/images/I/81r5dWQRBJL._SS500_.jpg',
-            'titolo' => "Tens Summoners Tale",
+            'titolo' => "Ten's Summoner's Tale",
             'autore' => "Sting",
             'anno' => "1993"
 

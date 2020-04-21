@@ -2,3 +2,13 @@
     padding-left: 11px;
     padding-right: 11px;
 }
+
+/* ellipsis per far stare i titoli su una sola riga*/
+
+@mixin ellipsis {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
