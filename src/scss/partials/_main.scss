@@ -17,7 +17,7 @@ main {
         .card {
             width: 200px;
             min-height: 280px;
-            max-height: 300px;
+            max-height: 310px;
             margin-top: 20px;
             background-color: $nero_primario;
             display: flex;
@@ -27,8 +27,7 @@ main {
             h3 {
                 color: $bianco_titolo;
                 font-size: 15px;
-                padding-left: 11px;
-                padding-right: 11px;
+                @include padding-dx-sx;
                 margin-top: 15px;
                 text-align: center;
             }
@@ -37,12 +36,14 @@ main {
                 color: $grigio_autore;
                 margin-top: 5px;
                 font-size: 14px;
+                @include padding-dx-sx;
             }
 
             .anno {
                 color: $grigio_anno;
                 margin-top: 5px;
                 font-size: 13px;
+                @include padding-dx-sx;
             }
 
 

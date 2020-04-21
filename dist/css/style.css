@@ -57,7 +57,7 @@ main .container {
 main .container .card {
   width: 200px;
   min-height: 280px;
-  max-height: 300px;
+  max-height: 310px;
   margin-top: 20px;
   background-color: #000000;
   display: flex;
@@ -78,12 +78,16 @@ main .container .card .nome-autore {
   color: #808080;
   margin-top: 5px;
   font-size: 14px;
+  padding-left: 11px;
+  padding-right: 11px;
 }
 
 main .container .card .anno {
   color: #E1E1E1;
   margin-top: 5px;
   font-size: 13px;
+  padding-left: 11px;
+  padding-right: 11px;
 }
 
 main .container .card img {
