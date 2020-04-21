@@ -1,18 +1,18 @@
 main {
-    min-height: calc(100vh - 50px);
+    //min-height: calc(100vh - 50px);
     background-color: $grigio_primario;
     font-family: $font-principale;
 
     .container {
         //alternativa: width a 55% con header
         width: 760px;
-        height: calc(100vh - 52px);
+        //min-height: calc(100vh - 52px);
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         padding-top: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 60px;
 
         .card {
             width: 200px;

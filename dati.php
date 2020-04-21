@@ -42,6 +42,28 @@
             'anno' => "2002"
 
         ],
+        
+        [
+            'immagine' => "https://m.media-amazon.com/images/I/710TlQlpKmL._SS500_.jpg",
+            'titolo' => "Una mattina",
+            'autore' => "Ludovico Einaudi",
+            'anno' => "2004"
+
+        ],
+        [
+            'immagine' => "https://s.mxmcdn.net/images-storage/albums/4/0/1/1/2/8/26821104_350_350.jpg",
+            'titolo' => "The Halley Quartet",
+            'autore' => "Paul Halley",
+            'anno' => "2012"
+
+        ],
+        [
+            'immagine' => "https://images-na.ssl-images-amazon.com/images/I/41-gF5kDEgL._AC_SY355_.jpg",
+            'titolo' => "Studio Ghibli Songs",
+            'autore' => "Joe Hisaishi",
+            'anno' => "2013"
+
+        ],
 
     ];
 
